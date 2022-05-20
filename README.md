@@ -1,5 +1,5 @@
 # fbxvm-status
-Simple tool to print Freebox Virtual Machines status (using API lib : fbx-delta-nba_bash_api.sh)
+Simple tool to print Freebox Virtual Machines status (using API lib : `fbx-delta-nba_bash_api.sh`)
 #### To be run on Freebox Delta hardware from FREE (French Internet Provider)
 
 
@@ -10,7 +10,7 @@ Simple tool to print Freebox Virtual Machines status (using API lib : fbx-delta-
 
 
 
-sourcing lib : fbx-delta-nba_bash_api.sh
+sourcing lib : `fbx-delta-nba_bash_api.sh`
 
 You can get the library here on this branch (at the time I'm writing, changes are not merged on the original project, so use the branch):
 https://github.com/nbanb/fbx-delta-nba_bash_api.sh/tree/nbanb-freebox-api
@@ -50,9 +50,8 @@ ________________________________________________________________________________
 
 #### NB : 
 
-If you need a tool which allow you to control nearly all parameters of your Freebox Delta's 
-Virtual Machines directly from your current bash session using FreeboxOS REST API, you can use 
-fbxvm-ctrl program which is available here : 
+If you need a tool to control nearly all parameters of your Freebox Delta's Virtual Machines directly from 
+your current bash session using FreeboxOS REST API, you can use `fbxvm-ctrl` program which is available here : 
 
 https://github.com/nbanb/fbxvm-ctrl
 
