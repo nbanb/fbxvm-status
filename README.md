@@ -38,7 +38,15 @@ MY_APP_TOKEN="4uZTLMMwSyiPB42tSCWLpSSZbXIYi+d+F32tVMx2j1p8oSUUk4Awr/OMZne4RRlY"
 ```
 
 
-#### Now you can update fbxvm-status with your just obtained values.
+#### Now you can download and update fbxvm-status with your just obtained values.
+
+```bash
+$ curl -L https://raw.githubusercontent.com/nbanb/fbxvm-status/main/fbxvm-status >fbxvm-status 
+$ chmod +x fbxvm-status
+```
+
+Update `fbxvm-status` program with your just obtain values :
+
 ```bash
 MY_APP_ID="YourNewFBXVM.app" 
 MY_APP_TOKEN="YourNewFBXVM.app.JustObtainToken"
